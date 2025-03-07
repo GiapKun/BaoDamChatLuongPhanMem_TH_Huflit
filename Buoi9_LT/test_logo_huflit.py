@@ -82,7 +82,7 @@ class TestHuflit:
             print("Entering password...")
             password_input = browser.find_element(By.ID, "i0118")
             password_input.clear()  # Clear any existing text
-            password_input.send_keys("Giap1121#")  # Replace with actual password
+            password_input.send_keys("nhap mat khau o day")  # Replace with actual password
             
             # Wait for Sign in button to be clickable
             print("Waiting for Sign in button...")
